@@ -1,15 +1,65 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700&family=Titillium+Web:ital,wght@1,400;1,600;1,700&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
 }
 
-.input-label{
-    /* display: block; */
+.container{
+    text-align: center;
+    margin: 3rem auto 4rem;
+    color:  #00995c;
+}
 
+.label{
+    display: block;
+    font-size: large;
+    color:  #00995c;
+}
+
+.input{
+    max-width: 200px;
+    margin: 8px;
+    color:  #00995c;
+    border: 2px solid  #00995c;
+    border-radius: 5px;
+    width: 30%;
+    outline:  #00995c;
 }
 
 .btn{
-    /* margin: auto; */
+    display: block;
+    margin: auto;
+    padding: 0.2rem 0.8rem;
+    margin-top: 1rem ;
+    font-size: medium;
+    border-radius: 5px;
+    background-color:  #00995c;
+    color: whitesmoke ;
+    border-color:  #00995c;
 }
 
+.table caption{
+    margin: 1rem auto;
+    font-size: larger;
+}
+
+
+.table{
+    width: 100%;
+    max-width: 400px;
+    border-collapse: collapse;
+    margin: auto ;
+    text-align: justify;
+}
+
+tr, td{
+   border: 1.5px solid  #00995c; 
+   border-collapse: collapse;
+   padding: 1rem;
+}
+
+
+
+.msg{
+    font-size: larger;
+}
